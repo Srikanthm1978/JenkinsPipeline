@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               echo "checkout" 
+               echo "Srikanth pipeline checkout" 
             }
             //git checkout
         }
-        stage()'Build') {
+        stage('Build') {
             steps {
-               echo "Building" 
+               echo "Srikanth pipeline Building" 
             }            
             //mvn clean package //this is for java code base
             //dotnet Build //this is for microsoft dotnet code base
