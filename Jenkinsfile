@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-               echo "Srikanth pipeline Building" 
+               echo "111 Srikanth pipeline Building" 
             }            
             //mvn clean package //this is for java code base
             //dotnet Build //this is for microsoft dotnet code base
